@@ -1,4 +1,4 @@
-X# dia 5
+# dia 5
 import numpy as np
 import altair as alt
 import pandas as pd
