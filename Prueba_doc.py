@@ -8,7 +8,7 @@ st.header('st.write')
 
 # Ejemplo 1
 
-st.write('Hello, *World!* :sunglasses:')
+st.write('Hola, *Test Streamlit!* :sunglasses:')
 
 # Ejemplo 2
 
@@ -28,7 +28,7 @@ st.write('Below is a DataFrame:', df, 'Above is a dataframe.')
 
 df2 = pd.DataFrame(
      np.random.randn(200, 3),
-     columns=['a', 'b', 'c'])
+     columns=['Eje x', 'Eje Y', 'c'])
 c = alt.Chart(df2).mark_circle().encode(
      x='a', y='b', size='c', color='c', tooltip=['a', 'b', 'c'])
 st.write(c)
